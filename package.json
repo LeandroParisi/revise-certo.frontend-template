@@ -20,7 +20,9 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "lint": "eslint src --max-warnings=0",
-    "typecheck": "tsc --project tsconfig.json --noEmit"
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "eslint-check": "eslint src --max-warnings=0",
+    "eslint-check:fix": "eslint src --max-warnings=0 --fix"
   },
   "dependencies": {
     "@emotion/cache": "11.10.8",
