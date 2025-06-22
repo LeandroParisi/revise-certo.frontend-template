@@ -2,10 +2,13 @@
 1. Use ```yarn```
 
 
-
 ## Debugging:
 1. Run ```yarn dev```
 2. On VSCode click run and Debug (third icon from the top on left side bar) run it with **Debug App**
+
+## Guidelines:
+1. Brand colors are on assets -> style -> colors
+2. If you are able to use TS please do it
 
 ## File structure:
 1. Assets:
